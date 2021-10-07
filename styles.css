@@ -120,4 +120,8 @@ button {
     body {
         background-image: url(./images/pattern-background-mobile.svg);
     }
+
+    #heroPic {
+        margin-top: 0;
+    }
 }
