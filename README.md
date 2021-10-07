@@ -1,6 +1,6 @@
 # Frontend Mentor - Order Summary Challenge
 
-### This is a challenge I take from https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
+### This is a challenge I take from [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 
 ### The challenge
 
@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Author
 
-- Github - https://github.com/sqle157 
+- Github - sqle157(https://github.com/sqle157) 
 
 
 # I hope you guys enjoy it!
