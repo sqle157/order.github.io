@@ -127,7 +127,8 @@ button {
         background-image: url(./images/pattern-background-mobile.svg);
     }
 
-    .container {
-        max-width: 350px;
+    .cardPic {
+        background-size: 100%;
+        height: 170px;
     }
 }
