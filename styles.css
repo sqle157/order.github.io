@@ -121,4 +121,8 @@ button {
         background-image: url(./images/pattern-background-mobile.svg);
     }
 
+    .container {
+        max-width: 300px;
+        height: fit-content;
+    }
 }
