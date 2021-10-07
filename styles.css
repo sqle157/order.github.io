@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* Basic setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: hsl(225, 100%, 94%);
+    --secondaryColor: hsl(245, 75%, 52%);
+    --neutralPrimary: hsl(225, 100%, 98%);
+    --neutralSeconday: hsl(224, 23%, 55%);
+    --neutralDarkBlue: hsl(223, 47%, 23%)
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-image: url("../order-summary-component-main/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: var(--primaryColor);
+}
+
+p {
+    color: var(--neutralSeconday);
+}
+
+a:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    height: fit-content;
+    margin: 5% auto 3%;
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 0 1rem 1.5rem var(--neutralPrimary);
+    background-color: white;
+}
+
+/* Content inside */
+
+.mainDiv {
+    width: 80%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    margin: 30px auto 15px;
+    font-size: 1.5rem;
+}
+
+/* Plan Wrapper */
+.planWrapper {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 2.5%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--neutralPrimary);
+}
+
+.planContent {
+    display: flex;
+}
+
+/* Action Wrapper */
+.actionWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* All button needs this */
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 40px;
+}
+
+/* Payment button */
+#payBtn {
+    background-color: var(--secondaryColor);
+    font-size: 1rem;
+    color: white;
+    border-radius: .5rem;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 0.5rem 1.75rem var(--neutralSeconday);
+}
+
+#payBtn:hover {
+    opacity: 0.5;
+}
+
+/* Cancel Order button */
+#cancelBtn {
+    color: grey;
+    background-color: transparent;
+}
+
+#cancelBtn:hover {
+    color: #000;
+}
+
+/* Mobile */
+@media only screen and (max-width: 375px) {
+    body {
+        background-image: url("../order-summary-component-main/images/pattern-background-mobile.svg");
+    }
+}
