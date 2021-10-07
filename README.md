@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Author
 
-- Github - sqle157(https://github.com/sqle157) 
+- Github - [sqle157](https://github.com/sqle157) 
 
 
 # I hope you guys enjoy it!
