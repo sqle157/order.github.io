@@ -58,7 +58,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	max-width: min(90%, 400px);
+	max-width: min(90%, 450px);
 	height: fit-content;
 	border-radius: 1em;
 	background-color: #fff;
