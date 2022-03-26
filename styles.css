@@ -33,7 +33,6 @@ h1 {
 }
 
 h2 {
-	margin: 0;
 	font-size: 1rem;
 	font-weight: 900;
 }
@@ -61,7 +60,7 @@ a:hover {
 	text-align: center;
 	max-width: min(90%, 400px);
 	height: fit-content;
-	border-radius: 0.5em;
+	border-radius: 1em;
 	background-color: #fff;
 	box-shadow: 0 1rem 10rem 2rem var(--primaryColor);
 	overflow: hidden;
@@ -75,13 +74,14 @@ a:hover {
 
 /* Content inside */
 .card__content {
-	padding: 2rem;
+	padding: 3rem;
 	display: flex;
 	flex-direction: column;
 }
 
-.card__content > * + * {
-	margin-top: 1.5rem;
+.card__content > * + *,
+.card__action > * + * {
+	margin-top: 1.5em;
 }
 
 /* Plan Wrapper */
@@ -109,20 +109,16 @@ a:hover {
 /* All button needs this */
 .btn {
 	cursor: pointer;
-	font-size: 1rem;
+	font-size: 0.9375rem;
 	font-weight: 900;
-	color: white;
-	border-radius: 0.75em;
-	padding: 1rem;
 	border: none;
-}
-
-.btn:first-of-type {
-	margin-bottom: 1rem;
 }
 
 /* Payment button */
 .btn-pay {
+	color: white;
+	border-radius: 0.75em;
+	padding: 1rem;
 	background-color: var(--secondaryColor);
 	box-shadow: 0 0.5rem 1.75rem var(--neutralSecondary);
 }
@@ -166,5 +162,9 @@ a:hover {
 	.card__img {
 		background-size: cover;
 		height: 170px;
+	}
+
+	.card__content {
+		padding: 2rem 1.5rem;
 	}
 }
