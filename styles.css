@@ -12,6 +12,7 @@
 :root {
 	--primaryColor: hsl(225, 100%, 94%);
 	--secondaryColor: hsl(245, 75%, 52%);
+	--card-shadow: hsl(225, 98%, 89%);
 	--neutralPrimary: hsl(225, 100%, 98%);
 	--neutralSecondary: hsl(224, 23%, 55%);
 	--neutralDarkBlue: hsl(223, 47%, 23%);
@@ -62,7 +63,7 @@ a:hover {
 	height: fit-content;
 	border-radius: 1em;
 	background-color: #fff;
-	box-shadow: 0 1rem 10rem 2rem var(--primaryColor);
+	box-shadow: 0.3125rem 0.5rem 1.25rem var(--card-shadow);
 	overflow: hidden;
 }
 
